@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="880c2cf3-4d57-4c37-ad83-9803132902d3" name="Default Changelist" comment="" />
+    <list default="true" id="880c2cf3-4d57-4c37-ad83-9803132902d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FindElements/FindByLinkId.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="48" selection-start-line="16" selection-start-column="3" selection-end-line="20" selection-end-column="48" />
+            <state relative-caret-position="240">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FindElements/FindByClassAndName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,12 +59,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/FindElements/FindByLinkId.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindElements/FindByClassAndName.java" />
+        <option value="$PROJECT_DIR$/debug.log" />
       </list>
     </option>
   </component>
@@ -61,7 +79,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-38" />
     <option name="y" value="432" />
     <option name="width" value="984" />
@@ -73,7 +98,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,10 +135,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KURS SELENIUM NAVIGATION ASSERTIONS - TESTELKA/FileUpload" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,7 +154,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FindByClassAndName">
+    <configuration name="FindByClassAndName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindElements.FindByClassAndName" />
+      <module name="selenium_qa_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindByLinkId" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindElements.FindByLinkId" />
       <module name="selenium_qa_tests" />
@@ -142,8 +181,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindByClassAndName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_qa_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindElements" />
+      <option name="MAIN_CLASS_NAME" value="FindElements.FindByClassAndName" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindByClassAndName.compareTitlePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_qa_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindElements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindElements" />
+      <option name="MAIN_CLASS_NAME" value="FindElements.FindByClassAndName" />
+      <option name="METHOD_NAME" value="compareTitlePrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindByClassAndName" />
+        <item itemvalue="JUnit.FindByClassAndName.compareTitlePrice" />
+        <item itemvalue="Application.FindByClassAndName" />
         <item itemvalue="Application.FindByLinkId" />
       </list>
     </recent_temporary>
@@ -161,10 +234,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FindByClassAndName - 2020.02.19 at 15h 00m 21s.xml">
+      <configuration name="FindByClassAndName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindByClassAndName_compareTitlePrice - 2020.02.19 at 15h 14m 15s.xml">
+      <configuration name="FindByClassAndName.compareTitlePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindByClassAndName_compareTitlePrice - 2020.02.19 at 15h 15m 21s.xml">
+      <configuration name="FindByClassAndName.compareTitlePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindByClassAndName_compareTitlePrice - 2020.02.19 at 15h 23m 10s.xml">
+      <configuration name="FindByClassAndName.compareTitlePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindByClassAndName_compareTitlePrice - 2020.02.19 at 15h 26m 11s.xml">
+      <configuration name="FindByClassAndName.compareTitlePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindByClassAndName_compareTitlePrice - 2020.02.19 at 15h 33m 20s.xml">
+      <configuration name="FindByClassAndName.compareTitlePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindByClassAndName_compareTitlePrice - 2020.02.19 at 15h 37m 48s.xml">
+      <configuration name="FindByClassAndName.compareTitlePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindByClassAndName_compareTitlePrice - 2020.02.19 at 15h 39m 08s.xml">
+      <configuration name="FindByClassAndName.compareTitlePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindByClassAndName_compareTitlePrice - 2020.02.19 at 15h 44m 03s.xml">
+      <configuration name="FindByClassAndName.compareTitlePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindByClassAndName_compareTitlePrice - 2020.02.19 at 15h 50m 37s.xml">
+      <configuration name="FindByClassAndName.compareTitlePrice" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -173,7 +279,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -200,20 +306,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindElements/FindByClassAndName.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindElements/FindByLinkId.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="240">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindElements/FindByLinkId.java">
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindElements/FindByClassAndName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="48" selection-start-line="16" selection-start-column="3" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="120">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
